@@ -1,10 +1,10 @@
 Exercise Chapter 2
 1.	Identify 3 QAs for each system
 
-Enterprise inventory control = 	Availability, Security, Interoperability
-Smart phone map app = Availability, Security, Performance	              			              			
-Video game = Availability, Performance, Modifiability
-Social network site =  Availability, Security, Usability                                                       					
+i) Enterprise inventory control = 	Availability, Security, Interoperability
+ii)Smart phone map app = Availability, Security, Performance	              			              			
+iii)Video game = Availability, Performance, Modifiability
+iv)Social network site =  Availability, Security, Usability                                                       					
 
 
 2.	Specify the most important QA for each system using scenario
