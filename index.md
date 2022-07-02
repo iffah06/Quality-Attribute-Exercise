@@ -1,37 +1,47 @@
-## Welcome to GitHub Pages
+Exercise Chapter 2
+1.	Identify 3 QAs for each system
 
-You can use the [editor on GitHub](https://github.com/iffah06/Quality-Attribute-Exercise/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+	                            | Availability	|Security	|Performance|	Interoperability|	Modifiability|	Testability|	Usability
+Enterprise inventory control	    ✓	               ✓		                   ✓			
+Smart phone map app	              ✓              	✓	        ✓				
+Video game	                      ✓		                      ✓		                             ✓		
+Social network site	              ✓	              ✓                                                           					✓
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+2.	Specify the most important QA for each system using scenario
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Enterprise inventory control (Security)
+Scenario: Hacker tries to log in
+Source: Unknown
+Stimulus: Hacker tries to log in using staff id and password
+Environment: Runtime
+Artifact: System
+Response: Account request for 2 factor authentication
+Response Measure: Account is freezed after 4 trials
 
-```markdown
-Syntax highlighted code block
+Smart phone app (Performance)
+Scenario: Users wants to open the application
+Source: Users
+Stimulus: User tries to open application 
+Environment: Runtime
+Artifact: Application
+Response: Application must be smooth and efficient
+Response Measure: Opening the application must take under than 2 seconds
 
-# Header 1
-## Header 2
-### Header 3
+Video game(Performance)
+Scenario: User tries to use multiple keys on keyboard
+Source: User
+Stimulus: User want to use skills on video game
+Environment: Runtime
+Artifact: System
+Response: Games run smoothly
+Response Measure: The time it takes for system to respond to the user action must take under less than 2 seconds
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/iffah06/Quality-Attribute-Exercise/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Social network site (Availability)
+Scenario: User wants to use the social network site 
+Source: User
+Stimulus: User tries to use the social network site at 3 am 
+Environment: Runtime
+Artifact:System 
+Response: Social network site must be available 24/7
+Response Measure: Opening the application must take less than 3 seconds and the flow of the site must be smooth
